@@ -1,5 +1,5 @@
 public class mapShare {
-  ppublic Map<String, String> mapShare(Map<String, String> map) {
+  public Map<String, String> mapShare(Map<String, String> map) {
     if (map.containsKey("a")) {
       map.put("b", map.get("a"));
     }
